@@ -58,7 +58,7 @@ public class CollatzUnitOfWork {
 		}
 	}
 	public static void main(String[] args) {
-		CollatzUnitOfWork uow = new CollatzUnitOfWork(27, 2);
+		CollatzUnitOfWork uow = new CollatzUnitOfWork(1, 1 << 16);
 		uow.computeNoFork();
 
 	}
